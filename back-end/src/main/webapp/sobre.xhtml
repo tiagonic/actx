@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition template="/WEB-INF/templates/template.xhtml">
+        <ui:define name="title">Sobre a Aplicação</ui:define>
+        <ui:define name="content">
+            <h:panelGrid columns="1" styleClass="grid" cellpadding="5">
+                <p:panel header="Sobre a Aplicação" style="margin-bottom:20px;">
+                    <h:outputText value="Bem-vindo à aplicação!" />
+                    <p:separator />
+                    <h:outputText value="Esta aplicação foi desenvolvida para facilitar a gestão e cadastro de usuários. Abaixo você encontrará mais detalhes sobre as funcionalidades e o propósito deste sistema." />
+
+                    <h:outputText value="Funcionalidades Principais:" styleClass="section-header"/>
+                    <ul>
+                        <li>Cadastro de Usuários</li>
+                        <li>Listagem de Usuários com Filtros</li>
+                        <li>Paginação Dinâmica</li>
+                        <li>Validação de Formulários</li>
+                        <li>Layout Responsivo</li>
+                    </ul>
+
+                    <h:outputText value="Tecnologias Utilizadas:" styleClass="section-header"/>
+                    <ul>
+                        <li>Java 17</li>
+                        <li>Jakarta EE 10</li>
+                        <li>PrimeFaces 14.0.8</li>
+                        <li>WildFly 34.0.1.Final</li>
+                    </ul>
+                </p:panel>
+
+                <p:panel header="Desenvolvedores" style="margin-bottom:20px;">
+                    <h:outputText value="Este projeto foi desenvolvido por uma equipe dedicada de desenvolvedores que se esforçaram para criar uma aplicação eficiente e intuitiva." />
+                    
+                    <h:outputText value="Nossa Equipe:" styleClass="section-header"/>
+                    <ul>
+                        <li>Desenvolvedor 1: Especialista em Frontend</li>
+                        <li>Desenvolvedor 2: Especialista em Backend</li>
+                        <li>Desenvolvedor 3: Gerente de Projeto</li>
+                        <li>Desenvolvedor 4: Designer de UI/UX</li>
+                    </ul>
+                </p:panel>
+
+                <p:panel header="Contato" style="margin-bottom:20px;">
+                    <h:outputText value="Se você tiver alguma dúvida ou precisar de suporte, entre em contato conosco através dos seguintes canais:" />
+
+                    <h:outputText value="E-mail:" styleClass="section-header"/>
+                    <ul>
+                        <li>suporte@aplicacao.com</li>
+                    </ul>
+
+                    <h:outputText value="Telefone:" styleClass="section-header"/>
+                    <ul>
+                        <li>(11) 1234-5678</li>
+                    </ul>
+                </p:panel>
+            </h:panelGrid>
+        </ui:define>
+    </ui:composition>
+</html>

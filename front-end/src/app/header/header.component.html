@@ -1,0 +1,63 @@
+
+
+<header>
+  <mat-toolbar color="primary">
+    <span>Actx App</span>
+  </mat-toolbar>
+
+  @if (this.isLogin) {
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>settings</mat-icon>
+        Configurações
+      </button>
+      <button mat-menu-item [routerLink]="['/home']" (click)="this.logout()">
+        <mat-icon>logout</mat-icon>
+        Sair
+      </button>
+    </mat-menu>
+
+    <button mat-icon-button [routerLink]="['/home']">
+      <mat-icon>home</mat-icon>
+    </button>
+
+    <button mat-icon-button [matMenuTriggerFor]="usuario">
+      <mat-icon>man</mat-icon>
+    </button>
+
+    <mat-menu #usuario="matMenu">
+      <button mat-menu-item [routerLink]="['/usuario/pesquisar']">
+        <mat-icon>search</mat-icon>
+        Pesquisar
+      </button>
+      <button mat-menu-item [routerLink]="['/usuario/inserir']">
+        <mat-icon>add</mat-icon>
+        Incluir
+      </button>
+      <button mat-menu-item [routerLink]="['/usuario']">
+        <mat-icon>list</mat-icon>
+        Listar
+      </button>
+    </mat-menu>
+
+    <button mat-icon-button (click)="readNotifications()">
+      <mat-icon aria-hidden="false" matBadge="{{this.unReadNotifications}}" matBadgeColor="accent">notifications</mat-icon>
+    </button>
+
+    <button mat-icon-button [routerLink]="['/pagamento']">
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+
+    <button mat-icon-button>
+      <mat-icon>attach_money</mat-icon>
+    </button>
+
+    <button mat-icon-button>
+      <mat-icon>more_vert</mat-icon>
+    </button>
+  }
+</header>

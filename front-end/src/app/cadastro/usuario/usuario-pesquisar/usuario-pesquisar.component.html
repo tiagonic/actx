@@ -1,0 +1,25 @@
+
+<div class="container">
+  <form [formGroup]="this.userForm" (submit)="onSubmit()">
+    <div class="form-fields">
+      <mat-form-field>
+        <mat-label>Login</mat-label>
+        <input matInput formControlName="login" />
+      </mat-form-field>
+    </div>
+    <div class="form-fields">
+      <mat-form-field>
+        <mat-label>E-mail</mat-label>
+        <input matInput formControlName="email" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit">Pesquisar</button>
+      </mat-card-actions>
+    </div>
+  </form>
+</div>
+
+<app-usuario-listar [usuarios]="this.usuarios"></app-usuario-listar>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+    <meta charset="UTF-8"/>
+    <title>Sistema de Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <h:outputStylesheet library="primefaces" name="primefaces.css" />
+    <h:outputStylesheet library="primefaces" name="primeicons/primeicons.css" />
+    <h:outputStylesheet library="primefaces" name="components.css" />
+    <h:outputStylesheet library="primefaces" name="core.css" />
+    <h:outputStylesheet library="primefaces" name="theme.css" />
+    <h:outputStylesheet name="css/styles.css" />
+    <h:outputScript name="primefaces.js" library="primefaces" />
+    <h:outputScript name="jquery/jquery.js" library="primefaces" />
+    <h:outputScript name="jquery/jquery-plugins.js" library="primefaces" />
+    <h:outputScript name="core.js" library="primefaces" />
+    <h:outputScript name="components.js" library="primefaces" />
+</h:head>
+
+<h:body>
+    <h:form id="layoutForm">
+        <p:panelGrid columns="1" styleClass="fullPage">
+            <p:panelGrid columns="1" styleClass="header">
+                <ui:insert name="header">
+                    <h:outputText value="Cabeçalho do Sistema" />
+                </ui:insert>
+            </p:panelGrid>
+
+            <p:panelGrid columns="1" styleClass="content">
+                <ui:insert name="content">
+                    Conteúdo Principal
+                </ui:insert>
+            </p:panelGrid>
+
+            <p:panelGrid columns="1" styleClass="footer">
+                <ui:insert name="footer">
+                    <h:outputText value="Rodapé do Sistema" />
+                </ui:insert>
+            </p:panelGrid>
+        </p:panelGrid>
+    </h:form>
+</h:body>
+
+</html>
