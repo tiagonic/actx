@@ -1,0 +1,33 @@
+<div class="container">
+  <form [formGroup]="this.userForm" (submit)="onSubmit()">
+
+
+    <div class="form-fields">
+      <mat-form-field>
+        <mat-label>E-mail</mat-label>
+        <input matInput type="text" formControlName="email" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-fields">
+      <mat-form-field>
+        <mat-label>Login</mat-label>
+        <input matInput type="text" formControlName="login" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-fields">
+      <mat-form-field>
+        <mat-label>Senha</mat-label>
+        <input matInput type="password" formControlName="senha" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit">Salvar</button>
+        <button mat-raised-button color="accent" type="button" (click)="onCancelar()">Cancelar</button>
+      </mat-card-actions>
+    </div>
+  </form>
+</div>

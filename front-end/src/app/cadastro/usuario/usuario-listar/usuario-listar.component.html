@@ -1,0 +1,14 @@
+@if (this.usuarios.length > 0) {
+  @for (usuario of this.usuarios; track usuario.id) {
+    <div>
+      <app-usuario [usuario]="usuario"></app-usuario>
+    </div>
+  }
+} @else {
+  <p>Sem registro!</p>
+}
+
+<div>
+  <button mat-raised-button color="primary" [routerLink]="['/usuario/inserir']">Inserir novo registro</button>
+  <button mat-raised-button color="accent" (click)="loadUsuarios()">Recarregar lista</button>
+</div>

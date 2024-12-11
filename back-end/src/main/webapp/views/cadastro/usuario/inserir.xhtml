@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    <f:view contentType="text/html;charset=UTF-8" encoding="UTF-8">
+        <ui:composition template="/WEB-INF/templates/template.xhtml">
+            <ui:define name="content">
+        
+                <h:form id="userForm">
+                    <p:panel header="Inserir/Editar Usuário" style="margin-bottom:20px;">
+                        <p:messages id="messages" showDetail="true" closable="true" showIcon="true" skipDetailIfEqualsSummary="true"/>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <h:outputLabel for="username" value="Usuário:" />
+                            <p:inputText id="username" value="#{cadastroUsuarioBean.entity.nome}" required="true" label="Usuário">
+                                <f:validateLength minimum="3" />
+                            </p:inputText>
+        
+                            <h:outputLabel for="email" value="Email:" />
+                            <p:inputText id="email" value="#{cadastroUsuarioBean.entity.email}" required="true" label="Email" validator="emailValidator" />
+        
+                            <h:outputLabel for="password" value="Senha:" />
+                            <p:password id="password" value="#{cadastroUsuarioBean.entity.senha}" required="true" label="Senha" />
+        
+                            <p:commandButton value="Salvar" action="#{cadastroUsuarioBean.salvar}" update="messages" ajax="false" process="@form" icon="pi pi-plus" styleClass="p-button-success"/>
+                            <p:commandButton value="Cancelar" action="#{cadastroUsuarioBean.cancelar}" immediate="true" ajax="false" icon="pi pi-times" styleClass="p-button-secondary"/>
+                        </h:panelGrid>
+                    </p:panel>
+                </h:form>
+        
+            </ui:define>
+        </ui:composition>
+    </f:view>
+    
+</html>
