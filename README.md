@@ -2,9 +2,17 @@
 
 ActX é um projeto desenvolvido para demonstrar habilidades técnicas em desenvolvimento de software, com foco em uma arquitetura monolítica com Web Service RESTFull para simular sistemas legados em evolução.
 
-O sistema utiliza JSF, Angular, EJB, JAX-RS, Hibernate e PostgreSQL e fornece uma interface com o usuário tanto em JSF quanto em Angular, com uma API RESTful para comunicação.
+No back-end monolítico o sistema utiliza a Plataforma Jakarta EE 10 com JSF, EJB, JAX-RS, Hibernate e PostgreSQL. No front-end o sistema fornece uma interface com o usuário tanto em JSF quanto em Angular v19, com uma API RESTful para comunicação.
 
-## Visão Geral da Arquitetura
+Ambas as interfaces com o usuário (JSF e Angular) consomem os mesmos serviços da camada de serviço, implementados com EJB. Essa estratégia fornece uma base sólida para abstrações e evoluções futuras, onde partes do monólito podem eventualmente ser extraídas para microserviços conforme necessário, tornando a arquitetura híbrida uma solução prática, visionária e escalável.
+
+## Pontos Críticos Fundamentais
+1. **Coordenação Entre Componentes**: Garantir que o back-end monolítico e o front-end em Angular se comuniquem de maneira eficiente e segura.
+2. **Gestão de Estados**: Manter a consistência e a integridade dos estados e dados entre diferentes interfaces e serviços.
+3. **Desempenho**: Otimizar a performance do sistema para evitar gargalos, especialmente no caso de um grande número de requisições simultâneas.
+4. **Segurança**: Implementação robusta com práticas de segurança para proteger dados e serviços acessados via APIs públicas. Ao implementar de forma abstrata regras de segurança na camada de controle, as regras valerão tanto para a interface em JSF quanto para o front-end em Angular v19.
+
+# Visão Geral da Arquitetura
 
 A arquitetura da aplicação proposta é monolítica e tem como objetivo fornecer uma interface com o usuário usando JSF (Jakarta Server Faces) e uma API RESTful para ser consumida por um front-end Angular v19. A camada de negócios é implementada com EJB (Enterprise JavaBeans) e os dados são persistidos usando Hibernate com JPA em um banco de dados PostgreSQL. O servidor de aplicação é o WildFly 34.0.1.Final. Os testes são realizados com JUnit e Mockito.
 
@@ -47,6 +55,11 @@ O Diagrama de Componentes ajuda a visualizar a estrutura do sistema, mostrando a
 #### Diagrama de Componentes:
 
 ```plaintext
++---------------------------------------------+
+|                 Controller                  |
++---------------------------------------------+
+                       |
+                       v
 +--------------------+    +---------------------+
 |  Front-end Angular |    |  Front-end JSF      |
 +--------------------+    +---------------------+
@@ -73,9 +86,11 @@ O Diagrama de Componentes ajuda a visualizar a estrutura do sistema, mostrando a
 ```
 
 #### Descrição dos Componentes:
+0. **Controller**:
+   - **Descrição**: Camada de controle abstrata que implementa regras de segurança válidas tanto para os JSF Backing Beans quanto para o Front-end Angular v19, que realiza chamadas HTTP para a API RESTful fornecida pela aplicação.
 
 1. **Front-end Angular**:
-   - **Descrição**: Interface com o usuário construído com Angular 18, que realiza chamadas HTTP para a API RESTful fornecida pela aplicação.
+   - **Descrição**: Interface com o usuário construído com Angular v19, que realiza chamadas HTTP para a API RESTful fornecida pela aplicação.
    - **Dependências**: RESTful Resources (API REST).
 
 2. **Front-end JSF**:
