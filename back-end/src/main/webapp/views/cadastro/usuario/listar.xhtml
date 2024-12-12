@@ -9,7 +9,7 @@
         <ui:composition>
             <p:dataTable id="userList" var="entity" value="#{cadastroUsuarioBean.entities}" selectionMode="single" selection="#{cadastroUsuarioBean.entitySelecionada}" rowKey="#{entity.id}" paginator="true" rows="10">
                 <p:column headerText="Login">
-                    <h:outputText value="#{entity.nome}" />
+                    <h:outputText value="#{entity.login}" />
                 </p:column>
                 <p:column headerText="Email">
                     <h:outputText value="#{entity.email}" />

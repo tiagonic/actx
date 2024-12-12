@@ -71,6 +71,16 @@ export class UsuarioInserirComponent implements OnInit, OnChanges {
     }
   }
 
+  onLimpar() {
+    this.usuario = {
+      id: 0,
+      login: "",
+      email: "",
+      senha: ""
+    };
+    this.userForm = this.popularPersonForm();
+  }
+
   onCancelar() {
     window.history.back();
   }

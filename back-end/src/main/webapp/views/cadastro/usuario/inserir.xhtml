@@ -10,11 +10,11 @@
             <ui:define name="content">
         
                 <h:form id="userForm">
-                    <p:panel header="Inserir/Editar Usuário" style="margin-bottom:20px;">
+                    <p:panel header="Inserir/Editar Usuário" style="margin-bottom:1%;">
                         <p:messages id="messages" showDetail="true" closable="true" showIcon="true" skipDetailIfEqualsSummary="true"/>
                         <h:panelGrid columns="2" cellpadding="5">
-                            <h:outputLabel for="username" value="Usuário:" />
-                            <p:inputText id="username" value="#{cadastroUsuarioBean.entity.nome}" required="true" label="Usuário">
+                            <h:outputLabel for="username" value="Login:" />
+                            <p:inputText id="username" value="#{cadastroUsuarioBean.entity.login}" required="true" label="Usuário">
                                 <f:validateLength minimum="3" />
                             </p:inputText>
         

@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.com.act</groupId>
-    <artifactId>act</artifactId>
+    <groupId>br.com.actx</groupId>
+    <artifactId>actx</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>act</name>
@@ -111,7 +111,7 @@
     </dependencies>
 
     <build>
-        <finalName>act</finalName>
+        <finalName>actx</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

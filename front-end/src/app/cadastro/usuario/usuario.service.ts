@@ -19,7 +19,8 @@ export class UsuarioService {
     if (usuario != null && usuario.id != null && usuario.id > 0) {
       return this.atualizar(usuario);
     } else {
-      return this.http.post<Usuario>(this.API, usuario);
+      const url = `${this.API}/inserir/`
+      return this.http.post<Usuario>(url, usuario);
     }
   }
 

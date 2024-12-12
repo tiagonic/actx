@@ -10,10 +10,12 @@ import { MatCardActions } from '@angular/material/card';
 import { UsuarioListarComponent } from "../usuario-listar/usuario-listar.component";
 import { UsuarioService } from '../usuario.service';
 import { Usuario } from '../usuario';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-usuario-pesquisar',
   imports: [
+    RouterModule,
     CommonModule,
     MatFormFieldModule,
     MatInputModule,
@@ -21,27 +23,27 @@ import { Usuario } from '../usuario';
     MatCardActions,
     ReactiveFormsModule,
     UsuarioListarComponent
-],
+  ],
   templateUrl: './usuario-pesquisar.component.html',
   styleUrl: './usuario-pesquisar.component.css'
 })
-export class UsuarioPesquisarComponent implements OnInit, OnChanges{
+export class UsuarioPesquisarComponent implements OnInit, OnChanges {
   @Input() usuario: Usuario = {
-    id:0,
-    login:"",
-    senha:"",
-    email:""
+    id: 0,
+    login: "",
+    senha: "",
+    email: ""
   };
 
   usuarios: Usuario[] = [];
 
   userForm: FormGroup = new FormGroup({
-    "login":new FormControl(this.usuario.login),
+    "login": new FormControl(this.usuario.login),
     "email": new FormControl(this.usuario.email),
     "senha": new FormControl(this.usuario.senha)
   });
 
-  constructor(private service: UsuarioService){}
+  constructor(private service: UsuarioService) { }
 
   ngOnInit(): void {
   }
@@ -55,4 +57,14 @@ export class UsuarioPesquisarComponent implements OnInit, OnChanges{
       this.usuarios = lista;
     });
   }
+
+  onLimpar() {
+    this.usuario = {
+      id: 0,
+      login: "",
+      email: "",
+      senha: ""
+    };
+  }
+
 }

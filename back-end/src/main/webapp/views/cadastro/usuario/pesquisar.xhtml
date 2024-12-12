@@ -13,13 +13,13 @@
                         <p:messages id="messages" showDetail="true" closable="true" showIcon="true" skipDetailIfEqualsSummary="true"/>
                         <h:panelGrid columns="2" cellpadding="5">
                             <h:outputLabel for="searchLogin" value="Login:" />
-                            <p:inputText id="searchLogin" value="#{cadastroUsuarioBean.entity.nome}" />
+                            <p:inputText id="searchLogin" value="#{cadastroUsuarioBean.entity.login}" />
                             <h:outputLabel for="searchEmail" value="Email:" />
                             <p:inputText id="searchEmail" value="#{cadastroUsuarioBean.entity.email}" />
                         </h:panelGrid>
                         <h:panelGrid columns="3" cellpadding="5">
                             <p:commandButton value="Pesquisar" action="#{cadastroUsuarioBean.pesquisar}" update="userList" process="@form" ajax="false" icon="pi pi-search"/>
-                            <p:commandButton value="Limpar" action="#{cadastroUsuarioBean.limpar}" ajax="false" icon="pi pi-refresh"/>
+                            <p:commandButton value="Limpar" action="#{cadastroUsuarioBean.limparTela}" ajax="false" icon="pi pi-refresh"/>
                             <p:commandButton value="Novo" action="#{cadastroUsuarioBean.novo}" ajax="false" icon="pi pi-plus"/>
                         </h:panelGrid>
                     </p:panel>
