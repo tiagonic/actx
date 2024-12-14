@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Bem-vindo à Página Inicial!</h1>
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/usuarios/pesquisar}">Pesquisar Usuários</a></li>
+            <li><a th:href="@{/usuarios/incluir}">Incluir Usuário</a></li>
+            <li><a th:href="@{/usuarios}">Listar Usuários</a></li>
+            <li><a th:href="@{/login}" th:if="${#authentication != null && #authentication.isAuthenticated()}">Login</a></li>
+            <!-- Link de Logout -->
+            <li><a th:href="@{/logout}" th:if="${#authentication != null && #authentication.isAuthenticated()}">Sair</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

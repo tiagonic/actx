@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pesquisar Usuários</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+    <h1>Pesquisar Usuários</h1>
+    <form th:action="@{/usuarios/pesquisar}" method="get">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" />
+        <br/>
+        <button type="submit">Pesquisar</button>
+    </form>
+    <br/>
+    <a th:href="@{/usuarios/incluir}">Novo Usuário</a>
+    <br/><br/>
+    <div th:if="${usuarios}">
+        <div th:replace="~{listar :: lista}"></div>
+    </div>
+</body>
+</html>

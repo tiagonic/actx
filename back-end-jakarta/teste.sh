@@ -1,5 +1,5 @@
 #/bin/bash
-BASE_URL=http://localhost:8080/act/api/transacoes
+BASE_URL=http://localhost:8080/actx/api/transacoes
 
 echo "Testando transacaoRequerida..."
 curl -X POST $BASE_URL/requerida -H "Content-Type: application/json; charset=UTF-8" -d "{\"nome\":\"João 1\",\"email\":\"joao1@email.com\",\"senha\":\"123\"}"

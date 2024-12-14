@@ -1,0 +1,39 @@
+services:
+  db2:
+    image: ibmcom/db2
+    container_name: db2-container
+    environment:
+      DB2INST1_PASSWORD: myPassword
+      LICENSE: accept
+    ports:
+      - "50000:50000"
+    volumes:
+      - db2-data:/database
+
+  backend:
+    image: backend-image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db2
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:db2://db2-container:50000/BLUDB
+      SPRING_DATASOURCE_USERNAME: db2inst1
+      SPRING_DATASOURCE_PASSWORD: myPassword
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    ports:
+      - "8080:8080"
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-container
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+
+volumes:
+  db2-data:
