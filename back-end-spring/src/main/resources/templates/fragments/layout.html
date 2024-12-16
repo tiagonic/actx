@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8">
+	    <title th:text="${title}">Título Padrão</title>
+	    <link rel="stylesheet" th:href="@{/css/styles.css}">
+	</head>
+	<body>
+	    <header th:replace="~{fragments/header :: headerFragment}"></header>
+	    <main>
+	        <div class="layout-wrapper">
+	            <div class="layout-topbar">
+	                <div th:replace="~{fragments/navbar :: navbarFragment}"></div>
+	            </div>
+	            <div class="layout-content-wrapper">
+	                <div th:replace="~{fragments/menu :: menuFragment}"></div>
+	                <p th:text="${pageContent}"></p>
+	                <div th:replace="~{fragments/teste :: testeFragment}"></div>  <!--Sintaxe Completa de Expressão de Fragmento -->
+	            </div>
+	        </div>
+	    </main>
+	    <footer th:replace="~{fragments/footer :: footerFragment}"></footer>
+	</body>
+</html>

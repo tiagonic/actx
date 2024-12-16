@@ -1,61 +1,80 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Erro da Aplicação</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 50px;
-        }
-        h1 {
-            color: #FF6347;
-        }
-        .details {
-            margin-top: 20px;
-        }
-        .attributes {
-            margin-top: 20px;
-        }
-        .attributes ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .attributes li {
-            background: #f9f9f9;
-            margin: 5px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-    </style>
+<title>Erro da Aplicação</title>
+<link rel="stylesheet" th:href="@{/css/styles.css}">
+<style type="text/css">
+	h1 {
+		color: #FF6347;
+	}
+	
+	.details {
+	    margin-top: 20px;
+	}
+	
+	.attributes {
+	    margin-top: 20px;
+	}
+	
+	.attributes ul {
+	    list-style-type: none;
+	    padding: 0;
+	}
+	
+	.attributes li {
+	    background: #f9f9f9;
+	    margin: 5px 0;
+	    padding: 10px;
+	    border: 1px solid #ddd;
+	}
+</style>
 </head>
 <body>
-    <h1>Ocorreu um Erro</h1>
-    <p>Desculpe pelo inconveniente. Algo deu errado e estamos trabalhando para resolver isso.</p>
+	<h1>Ocorreu um Erro</h1>
+	<p>
+	   Desculpe pelo inconveniente. Algo deu errado e estamos trabalhando para resolver isso.
+	</p>
 
-    <div class="details">
-        <h2>Detalhes do Erro</h2>
-        <p><strong>Código de Status:</strong> <span th:text="${statusCode}"></span></p>
-        <p><strong>Mensagem de Erro:</strong> <span th:text="${errorMessage}"></span></p>
-        <p><strong>Exceção:</strong> <span th:text="${exception}"></span></p>
-    </div>
+	<div class="details">
+		<h2>Detalhes do Erro</h2>
+		<p>
+			<strong>Código de Status:</strong> <span th:text="${statusCode}"></span>
+		</p>
+		<p>
+			<strong>Mensagem de Erro:</strong> <span th:text="${errorMessage}"></span>
+		</p>
+		<p>
+			<strong>Exceção:</strong> <span th:text="${exception}"></span>
+		</p>
+	</div>
 
-    <div class="details attributes">
-        <h2>Atributos Disponíveis</h2>
-        <ul>
-            <li th:each="attributeName : ${attributeNames}" th:text="${attributeName}"></li>
-        </ul>
-    </div>
+	<div class="details attributes">
+		<h2>Atributos Disponíveis</h2>
+		<ul>
+			<li th:each="attributeName : ${attributeNames}" th:text="${attributeName}"></li>
+		</ul>
+	</div>
 
-    <div class="details">
-        <h2>Possíveis Soluções</h2>
-        <ul>
-            <li>Verifique a URL que você está tentando acessar.</li>
-            <li>Certifique-se de que todos os parâmetros obrigatórios estão incluídos.</li>
-            <li>Consulte o log do servidor para obter mais detalhes sobre o erro.</li>
-            <li>Entre em contato com o suporte técnico se precisar de assistência adicional.</li>
-        </ul>
-    </div>
+	<div class="details">
+		<h2>Possíveis Soluções</h2>
+		<ul>
+			<li>
+			     Verifique a URL que você está tentando acessar.
+			</li>
+			<li>
+			     Certifique-se de que todos os parâmetros obrigatórios estão incluídos.
+			</li>
+			<li>
+			     Consulte o log do servidor para obter mais detalhes sobre o erro.
+			</li>
+			<li>
+			     Entre em contato com o suporte técnico se precisar de assistência adicional.
+			</li>
+		</ul>
+	</div>
 
-    <p><a th:href="@{/}">Voltar para a Página Inicial</a></p>
+	<p>
+		<a th:href="@{/}">Voltar para a Página Inicial</a>
+	</p>
 </body>
 </html>

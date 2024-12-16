@@ -30,20 +30,20 @@ public class UsuarioController {
             usuarios = usuarioService.listarTodos();
         }
         model.addAttribute("usuarios", usuarios);
-        return "pesquisar";
+        return "usuario/pesquisar";
     }
 
     @GetMapping
     public String listarUsuarios(Model model) {
         List<Usuario> usuarios = usuarioService.listarTodos();
         model.addAttribute("usuarios", usuarios);
-        return "listar";
+        return "usuario/listar";
     }
 
-    @GetMapping("/incluir")
+    @GetMapping("/inserir")
     public String novo(Model model) {
         model.addAttribute("usuario", new Usuario());
-        return "incluir";
+        return "usuario/inserir";
     }
 
     @PostMapping("/salvar")
@@ -55,7 +55,7 @@ public class UsuarioController {
     @GetMapping("/editar/{id}")
     public String editar(@PathVariable Long id, Model model) {
         model.addAttribute("usuario", usuarioService.buscarPorId(id));
-        return "incluir";
+        return "usuario/inserir";
     }
 
     @GetMapping("/deletar/{id}")

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <title>Minha Aplicação</title>
+	    <link rel="stylesheet" th:href="@{/css/styles.css}">
+	</head>
+	<body>
+	
+	    <!-- Incluir Header -->
+	    <div th:replace="~{fragments/header :: headerFragment}"></div>
+	
+	    <!-- Conteúdo Principal -->
+        <main>
+            <div>
+                <nav th:replace="~{fragments/menu :: menuFragment}"></nav>
+            </div>
+            <div style="text-align: center; width: 100%">
+                <h2>Bem-vindo à Minha Aplicação</h2>
+                <p>Esta é a página principal.</p>
+            </div>
+        </main>
+	
+	    <!-- Incluir Footer -->
+	    <div th:replace="~{fragments/footer :: footerFragment}"></div>
+	
+	</body>
+</html>

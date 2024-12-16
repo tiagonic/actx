@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${pageTitle}">Título da Página</title>
+</head>
+<body>
+    <header th:fragment="headerFragment">
+        <h1>Minha Aplicação</h1>
+        <nav>
+            <ul>
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/about}">Sobre</a></li>
+                <li><a th:href="@{/contact}">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

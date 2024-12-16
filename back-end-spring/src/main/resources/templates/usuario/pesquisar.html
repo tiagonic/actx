@@ -9,14 +9,13 @@
     <form th:action="@{/usuarios/pesquisar}" method="get">
         <label for="login">Login:</label>
         <input type="text" id="login" name="login" />
-        <br/>
         <button type="submit">Pesquisar</button>
     </form>
     <br/>
-    <a th:href="@{/usuarios/incluir}">Novo Usuário</a>
+    <a th:href="@{/usuarios/inserir}">Inserir novo usuário</a>
     <br/><br/>
-    <div th:if="${usuarios}">
-        <div th:replace="~{listar :: lista}"></div>
+    <div th:if="${usuarios != null && usuarios.size > 0}">
+        <div th:replace="~{usuario/listar :: lista}"></div>
     </div>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Home Page</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
 </head>
 <body>
     <h1>Bem-vindo à Página Inicial!</h1>
@@ -9,7 +10,7 @@
         <ul>
             <li><a th:href="@{/}">Home</a></li>
             <li><a th:href="@{/usuarios/pesquisar}">Pesquisar Usuários</a></li>
-            <li><a th:href="@{/usuarios/incluir}">Incluir Usuário</a></li>
+            <li><a th:href="@{/usuarios/inserir}">Inserir Usuário</a></li>
             <li><a th:href="@{/usuarios}">Listar Usuários</a></li>
             <li><a th:href="@{/login}" th:if="${#authentication != null && #authentication.isAuthenticated()}">Login</a></li>
             <!-- Link de Logout -->

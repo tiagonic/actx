@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<body>
+        <nav th:fragment="menuFragment">
+            <ul>
+                <li>Usuários</li>
+	            <li><a th:href="@{/usuarios/pesquisar}">Pesquisar</a></li>
+	            <li><a th:href="@{/usuarios/inserir}">Inserir</a></li>
+	            <li><a th:href="@{/usuarios}">Listar</a></li>
+            </ul>
+        </nav>
+	</body>
+</html>

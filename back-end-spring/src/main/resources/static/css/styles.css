@@ -1,0 +1,186 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333; /* Cor do texto padrão */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos do Header */
+header {
+    background-color: #ff6347; /* Tomate */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+header nav li {
+    display: inline; /* Itens em linha */
+    margin: 0 15px; /* Espaçamento entre links */
+}
+
+header nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilos do Main */
+main {
+    background-color: #ffe4b5; /* Amarelo claro */
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+}
+
+main h2, main h3 {
+    color: #32cd32; /* Verde limão */
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #4682b4; /* Azul aço */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    max-width: 100px; /* Limita a largura da imagem do footer */
+}
+
+footer .copyright {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+/* Cabeçalhos */
+h1 {
+    color: #ff6347; /* Tomate */
+    text-align: center;
+}
+
+h2 {
+    color: #4682b4; /* Azul aço */
+}
+
+h3 {
+    color: #32cd32; /* Verde limão */
+}
+
+/* Parágrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Citações */
+blockquote {
+    border-left: 4px solid #ff4500; /* Laranja vermelho */
+    padding-left: 10px;
+    margin-left: 0;
+    color: #555;
+}
+
+/* Listas */
+ul {
+    list-style-type: square; /* Marcadores quadrados */
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #1e90ff; /* Azul dodger */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Imagens */
+img {
+    max-width: 100%; /* Responsivo */
+    height: auto;
+}
+
+/* Botões */
+button {
+    background-color: #ff69b4; /* Rosa chocante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493; /* Rosa profundo ao passar o mouse */
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Borda leve */
+    padding: 10px;
+}
+
+th {
+    background-color: #ffa07a; /* Salmão claro */
+}
+
+/* Labels e Inputs */
+label {
+    font-weight: bold; /* Negrito para labels */
+    display: block; /* Exibe cada label em uma nova linha */
+    margin-bottom: 5px; /* Espaço abaixo da label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Largura total menos padding e borda */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1e90ff; /* Borda azul dodger */
+    margin-bottom: 15px; /* Espaço abaixo do input */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #ff6347; /* Muda a cor da borda ao focar (tomate) */
+}
