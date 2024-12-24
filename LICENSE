@@ -1,21 +1,32 @@
-MIT License
+#### CONTRATO DE LICENÇA DE USO DE SOFTWARE
 
-Copyright (c) 2024 Tiago Barreto dos Santos
+**1. Termos Gerais**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Este contrato é celebrado entre Faroeste Sistemas, doravante denominada "LICENCIANTE", e o usuário final, doravante denominado "LICENCIADO".
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+**2. Concessão de Licença**
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+A LICENCIANTE concede ao LICENCIADO uma licença não exclusiva e intransferível para usar o software ActX de acordo com os termos deste contrato.
+
+**3. Direitos de Propriedade**
+
+A LICENCIANTE mantém todos os direitos de propriedade intelectual sobre o software. O código-fonte não será fornecido ao LICENCIADO.
+
+**4. Restrições de Uso**
+
+O LICENCIADO não pode:
+- Copiar, modificar ou redistribuir o software sem autorização prévia por escrito da LICENCIANTE.
+- Usar o software para fins comerciais sem a permissão da LICENCIANTE.
+
+**5. Limitação de Responsabilidade**
+
+A LICENCIANTE não será responsável por quaisquer danos diretos, indiretos, incidentais ou consequentes decorrentes do uso ou da incapacidade de usar o software.
+
+**6. Termo de Vigência**
+
+Este contrato entra em vigor na data de aceitação pelo LICENCIADO e permanece em vigor até ser rescindido pela LICENCIANTE.
+
+**7. Rescisão**
+
+- **Rescisão por Parte do Licenciado**: O LICENCIADO pode rescindir este contrato a qualquer momento, mediante notificação por escrito à LICENCIANTE. A rescisão será efetiva na data em que a notificação for recebida pela LICENCIANTE. A LICENCIANTE não reembolsará quaisquer valores pagos pela licença vitalícia, exceto em casos de defeito significativo no software que não possa ser corrigido.
+- **Rescisão por Parte da Licenciante**: A LICENCIANTE pode rescindir este contrato a qualquer momento, mediante notificação por escrito ao LICENCIADO, caso este viole qualquer termo deste contrato. Em caso de rescisão por violação de termos, o LICENCIADO deve desinstalar o software de todos os dispositivos e deletar todos os executáveis imediatamente.
