@@ -1,0 +1,290 @@
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO
+
+Este contrato é firmado entre [NOME DA SUA EMPRESA], inscrita no CNPJ sob nº [CNPJ DA SUA EMPRESA], com sede em [ENDEREÇO DA SUA EMPRESA], doravante denominada "CONTRATADA", e [NOME DA EMPRESA CONTRATANTE], inscrita no CNPJ sob nº [CNPJ DA EMPRESA CONTRATANTE], com sede em [ENDEREÇO DA EMPRESA CONTRATANTE], doravante denominada "CONTRATANTE".
+
+CLÁUSULA 1 - OBJETO
+
+O presente contrato tem por objeto a prestação de serviços de tecnologia da informação, incluindo a licença de uso do sistema [NOME DO SISTEMA], instalação, manutenção, atualização e suporte técnico, conforme as opções escolhidas pela CONTRATANTE.
+
+CLÁUSULA 2 - OBRIGAÇÕES DA CONTRATADA
+
+1. Conceder à CONTRATANTE o direito de uso do sistema [NOME DO SISTEMA] de acordo com o pacote contratado.
+2. Fornecer instalação e configuração do sistema, se contratado.
+3. Prestar serviços de manutenção e atualização do sistema, se contratado.
+4. Oferecer suporte técnico para resolução de problemas e dúvidas, conforme o pacote contratado.
+
+CLÁUSULA 3 - OBRIGAÇÕES DA CONTRATANTE
+
+1. Efetuar os pagamentos de acordo com os valores e prazos estabelecidos neste contrato.
+2. Fornecer todas as informações necessárias para a prestação dos serviços.
+3. Seguir as orientações e políticas de uso da CONTRATADA para garantir a correta utilização do sistema.
+
+CLÁUSULA 4 - PLANOS E PREÇOS
+
+A CONTRATANTE poderá escolher entre os seguintes pacotes:
+
+Bens Pagos uma Única Vez
+
+| Bem                          | Descrição                                                                       | Valor             |
+|------------------------------|---------------------------------------------------------------------------------|-------------------|
+| Licença de Uso (Pequenas Empresas) | Permite instalação e uso do sistema                                           | R$ 500,00 por usuário |
+| Licença de Uso (Médias Empresas)   | Permite instalação e uso do sistema                                           | R$ 1.000,00 por usuário |
+| Licença de Uso (Grandes Empresas)  | Permite instalação e uso do sistema                                           | R$ 2.000,00 por usuário |
+| Instalação (Pequenas Empresas)     | Serviço de instalação e configuração                                          | R$ 1.000,00       |
+| Instalação (Médias Empresas)       | Serviço de instalação e configuração                                          | R$ 2.500,00       |
+| Instalação (Grandes Empresas)      | Serviço de instalação e configuração                                          | R$ 5.000,00       |
+
+Serviços Pagos Mensalmente
+
+| Serviço                      | Descrição                                                                       | Valor Mensal      |
+|------------------------------|---------------------------------------------------------------------------------|-------------------|
+| Manutenção (Pequenas Empresas) | Inclui correções de bugs, otimizações de desempenho e monitoramento preventivo  | R$ 300,00         |
+| Manutenção (Médias Empresas)   | Inclui correções de bugs, otimizações de desempenho e monitoramento preventivo  | R$ 750,00         |
+| Manutenção (Grandes Empresas)  | Inclui correções de bugs, otimizações de desempenho e monitoramento preventivo  | R$ 1.500,00       |
+| Suporte Técnico (Pequenas Empresas) | Atendimento técnico para resolver problemas e dúvidas dos usuários, disponível via telefone, e-mail e chat online | R$ 100,00 por hora |
+| Suporte Técnico (Médias Empresas)   | Atendimento técnico para resolver problemas e dúvidas dos usuários, disponível via telefone, e-mail e chat online | R$ 200,00 por hora |
+| Suporte Técnico (Grandes Empresas)  | Atendimento técnico para resolver problemas e dúvidas dos usuários, disponível via telefone, e-mail e chat online | R$ 400,00 por hora |
+
+Serviços Pagos sob Demanda
+
+| Serviço                      | Descrição                                                                       | Valor Unitário    |
+|------------------------------|---------------------------------------------------------------------------------|-------------------|
+| Atualização (Pequenas Empresas) | Implementação de novas funcionalidades e melhorias no sistema                  | R$ 200,00 por atualização |
+| Atualização (Médias Empresas)   | Implementação de novas funcionalidades e melhorias no sistema                  | R$ 500,00 por atualização |
+| Atualização (Grandes Empresas)  | Implementação de novas funcionalidades e melhorias no sistema                  | R$ 1.000,00 por atualização |
+
+CLÁUSULA 5 - CRITÉRIOS DE COBRANÇA
+
+O valor mensal a ser pago pela CONTRATANTE será calculado com base nos seguintes critérios técnicos e objetivos:
+
+Número de Usuários: Cobrança com base no número de usuários cadastrados no sistema, conforme tabela abaixo:
+
+| Quantidade de Usuários       | Valor por Usuário                                                              |
+|------------------------------|--------------------------------------------------------------------------------|-------------------|
+| Pequenas Empresas            | R$ 500,00 por usuário                                                           |
+| Médias Empresas              | R$ 1.000,00 por usuário                                                         |
+| Grandes Empresas             | R$ 2.000,00 por usuário                                                         |
+
+Volume de Transações Mensais: Cobrança com base no volume de transações processadas mensalmente pelo sistema, conforme tabela abaixo:
+
+| Volume de Transações         | Valor Mensal                                                                   |
+|------------------------------|--------------------------------------------------------------------------------|-------------------|
+| Até 1000 transações          | R$ 200,00                                                                       |
+| De 1001 a 5000 transações    | R$ 500,00                                                                       |
+| Acima de 5000 transações     | R$ 1.000,00                                                                     |
+
+Tamanho da Empresa (Faturamento Anual): Cobrança adicional com base no faturamento anual da empresa, conforme tabela abaixo:
+
+| Faturamento Anual            | Valor Mensal                                                                   |
+|------------------------------|--------------------------------------------------------------------------------|-------------------|
+| Pequenas Empresas            | R$ 300,00                                                                       |
+| Médias Empresas              | R$ 750,00                                                                       |
+| Grandes Empresas             | R$ 1.500,00                                                                     |
+
+CLÁUSULA 6 - FORMULÁRIO INICIAL
+
+A CONTRATANTE preencherá um formulário inicial fornecendo informações sobre o número de usuários, volume de transações e faturamento anual. Com base nessas informações, a CONTRATADA calculará o valor mensal a ser pago pela CONTRATANTE.
+
+CLÁUSULA 7 - DESCRIÇÃO DOS SERVIÇOS
+
+Suporte Técnico: Serviço oferecido para resolver problemas e dúvidas dos usuários. O suporte técnico cobre assistência técnica e orientação para uso correto do sistema. Pode ser contratado por hora e está disponível via telefone, e-mail e chat online. A CONTRATANTE pode acionar o suporte técnico através dos seguintes meios:
+- Telefone: [NÚMERO DE TELEFONE]
+- E-mail: [ENDEREÇO DE E-MAIL]
+- Chat online: Disponível no portal do sistema.
+
+Manutenção: Serviço contínuo que garante a operação correta do sistema, incluindo correções de bugs, otimizações de desempenho e monitoramento preventivo. A manutenção é cobrada mensalmente.
+
+Atualização: Serviço de implementação de novas funcionalidades e melhorias no sistema. As atualizações são cobradas por demanda.
+
+CLÁUSULA 8 - DURAÇÃO E RESCISÃO
+
+Este contrato tem duração de [DURAÇÃO DO CONTRATO] meses, podendo ser renovado automaticamente por iguais períodos, a menos que qualquer uma das partes notifique a outra, por escrito, com [PRAZO DE NOTIFICAÇÃO] dias de antecedência, sua intenção de não renovar o contrato.
+
+CLÁUSULA 9 - ACORDO DE NÍVEL DE SERVIÇO (SLA)
+
+O Acordo de Nível de Serviço (SLA) estabelece os níveis de serviço que devem ser cumpridos pela CONTRATADA. Inclui tempo de resposta, disponibilidade do sistema e penalidades em caso de descumprimento.
+
+Disponibilidade do Sistema
+- O sistema deve estar disponível para uso 99,5% do tempo durante o horário comercial (08:00 às 18:00).
+
+Tempo de Resposta para Suporte Técnico
+- Tempo de resposta inicial: até 1 hora durante o horário comercial.
+- Tempo de resolução de problemas críticos: até 4 horas.
+- Tempo de resolução de problemas não críticos: até 24 horas.
+
+Tempo de Resposta para Manutenção
+- Tempo de resposta inicial: até 2 horas durante o horário comercial.
+- Tempo de resolução de manutenção corretiva: até 24 horas.
+- Tempo de conclusão de manutenção preventiva: agendada conforme conveniência.
+
+CLÁUSULA 10 - TIPOS DE MANUTENÇÃO E CRITÉRIOS DE COBRANÇA
+
+Manutenção Preventiva
+- Descrição: Atividades realizadas para prevenir falhas e garantir o bom funcionamento do sistema.
+- Cobrança: Incluída na taxa mensal de manutenção.
+
+Manutenção Corretiva
+- Descrição: Atividades realizadas para corrigir falhas e defeitos no sistema.
+- Cobrança: Incluída na taxa mensal de manutenção.
+
+Manutenção Evolutiva
+- Descrição: Atividades realizadas para implementar melhorias e novas funcionalidades no sistema.
+- Cobrança: Cobrada sob demanda, conforme tabela de atualização.
+
+Vamos continuar de onde paramos e finalizar o contrato:
+
+#### CLÁUSULA 11 - TRANSIÇÃO DE SUPORTE TÉCNICO PARA MANUTENÇÃO
+
+Se durante o atendimento de suporte técnico for identificado que a solicitação requer manutenção, a CONTRATADA informará a CONTRATANTE sobre a mudança de categoria do atendimento. A cobrança será ajustada conforme o tipo de manutenção necessário (corretiva, preventiva ou evolutiva).
+
+#### CLÁUSULA 12 - DISPOSIÇÕES GERAIS
+
+1. O presente contrato é regido pelas leis da República Federativa do Brasil.
+2. Qualquer alteração neste contrato só será válida se feita por escrito e assinada por ambas as partes.
+3. Fica eleito o foro da comarca de [CIDADE] para dirimir quaisquer dúvidas ou controvérsias decorrentes deste contrato.
+
+E por estarem assim justas e contratadas, assinam o presente contrato em duas vias de igual teor e forma, na presença das testemunhas abaixo.
+
+[LOCAL], [DATA].
+
+_____________________________
+[REPRESENTANTE DA CONTRATADA]
+[NOME DA SUA EMPRESA]
+
+_____________________________
+[REPRESENTANTE DA CONTRATANTE]
+[NOME DA EMPRESA CONTRATANTE]
+
+Testemunhas:
+
+_____________________________
+Nome:
+CPF:
+
+_____________________________
+Nome:
+CPF:
+
+---
+
+Vamos reformular a fatura mensal para a pequena empresa que contratou todos os serviços previstos no contrato e consumiu uma unidade de cada serviço durante o mês corrente. A licença de uso será paga mensalmente, junto com os demais serviços.
+
+### Modelo de Fatura Mensal para Pequenas Empresas
+
+---
+
+#### FATURA MENSAL
+
+**Empresa Contratante:**
+Nome: [NOME DA EMPRESA CONTRATANTE]  
+CNPJ: [CNPJ DA EMPRESA CONTRATANTE]  
+Endereço: [ENDEREÇO DA EMPRESA CONTRATANTE]
+
+**Empresa Contratada:**
+Nome: [NOME DA SUA EMPRESA]  
+CNPJ: [CNPJ DA SUA EMPRESA]  
+Endereço: [ENDEREÇO DA SUA EMPRESA]
+
+**Data de Emissão:** [DATA DE EMISSÃO]  
+**Data de Vencimento:** [DATA DE VENCIMENTO]  
+**Número da Fatura:** [NÚMERO DA FATURA]
+
+#### Detalhes dos Serviços e Valores
+
+**Serviços Mensais**
+
+| Descrição                                       | Quantidade | Valor Unitário       | Valor Total           |
+|-------------------------------------------------|------------|----------------------|-----------------------|
+| Licença de Uso (Pequenas Empresas)              | 1          | R$ 500,00            | R$ 500,00             |
+| Manutenção Mensal                               | 1          | R$ 300,00            | R$ 300,00             |
+| Volume de Transações (até 1000 transações)      | 1          | R$ 200,00            | R$ 200,00             |
+
+**Serviços sob Demanda**
+
+| Descrição                                       | Quantidade | Valor Unitário       | Valor Total           |
+|-------------------------------------------------|------------|----------------------|-----------------------|
+| Atualização (Pequenas Empresas)                 | 1          | R$ 200,00            | R$ 200,00             |
+| Suporte Técnico (1 hora)                        | 1          | R$ 100,00            | R$ 100,00             |
+
+**Total Geral**
+
+| Descrição                                       | Valor Total           |
+|-------------------------------------------------|-----------------------|
+| Total Serviços Mensais                          | R$ 1.000,00           |
+| Total Serviços sob Demanda                      | R$ 300,00             |
+| **Total Geral a Pagar**                         | **R$ 1.300,00**       |
+
+#### Instruções de Pagamento
+
+Por favor, efetue o pagamento até a data de vencimento indicada nesta fatura. Em caso de dúvidas, entre em contato conosco através do telefone [NÚMERO DE TELEFONE] ou e-mail [ENDEREÇO DE E-MAIL].
+
+---
+
+
+Que bom que gostou da minha sugestão! Vamos preencher as lacunas com valores justos com base em preços praticados pelo mercado para uma licença vitalícia de software.
+
+### Modelo de Contrato de Licença Vitalícia de Software
+
+---
+
+#### CONTRATO DE LICENÇA VITALÍCIA DE SOFTWARE
+
+Este contrato é firmado entre [NOME DA SUA EMPRESA], inscrita no CNPJ sob nº [CNPJ DA SUA EMPRESA], com sede em [ENDEREÇO DA SUA EMPRESA], doravante denominada "CONTRATADA", e [NOME DA EMPRESA CONTRATANTE], inscrita no CNPJ sob nº [CNPJ DA EMPRESA CONTRATANTE], com sede em [ENDEREÇO DA EMPRESA CONTRATANTE], doravante denominada "CONTRATANTE".
+
+#### CLÁUSULA 1 - OBJETO
+
+O presente contrato tem por objeto a concessão de uma licença vitalícia de uso do sistema [NOME DO SISTEMA] pela CONTRATADA à CONTRATANTE.
+
+#### CLÁUSULA 2 - OBRIGAÇÕES DA CONTRATADA
+
+1. Conceder à CONTRATANTE o direito de uso vitalício do sistema [NOME DO SISTEMA].
+2. Fornecer a instalação e configuração inicial do sistema, conforme contratado.
+
+#### CLÁUSULA 3 - OBRIGAÇÕES DA CONTRATANTE
+
+1. Efetuar o pagamento do valor da licença vitalícia conforme estabelecido neste contrato.
+2. Assumir total responsabilidade pela operação, manutenção e atualização do sistema após a instalação inicial, a menos que contrate serviços adicionais.
+
+#### CLÁUSULA 4 - VALORES E PAGAMENTOS
+
+| Bem                           | Descrição                          | Valor             |
+|-------------------------------|------------------------------------|-------------------|
+| Licença de Uso Vitalícia      | Permite instalação e uso vitalício | R$ 5.000,00       |
+| Instalação                    | Serviço de instalação inicial      | R$ 1.000,00       |
+
+#### CLÁUSULA 5 - CONDIÇÕES GERAIS
+
+1. A CONTRATANTE reconhece que não terá direito a suporte técnico, manutenção ou atualizações contínuas, a menos que contrate esses serviços separadamente.
+2. A CONTRATANTE deve garantir que possui capacidade técnica para operar e manter o sistema por conta própria.
+
+#### CLÁUSULA 6 - DISPOSIÇÕES GERAIS
+
+1. O presente contrato é regido pelas leis da República Federativa do Brasil.
+2. Qualquer alteração neste contrato só será válida se feita por escrito e assinada por ambas as partes.
+3. Fica eleito o foro da comarca de [CIDADE] para dirimir quaisquer dúvidas ou controvérsias decorrentes deste contrato.
+
+E por estarem assim justas e contratadas, assinam o presente contrato em duas vias de igual teor e forma, na presença das testemunhas abaixo.
+
+[LOCAL], [DATA].
+
+_____________________________  
+[REPRESENTANTE DA CONTRATADA]  
+[NOME DA SUA EMPRESA]
+
+_____________________________  
+[REPRESENTANTE DA CONTRATANTE]  
+[NOME DA EMPRESA CONTRATANTE]
+
+Testemunhas:
+
+_____________________________  
+Nome:  
+CPF:
+
+_____________________________  
+Nome:  
+CPF:
+
+---
+
